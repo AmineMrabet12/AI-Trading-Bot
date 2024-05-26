@@ -58,7 +58,6 @@ def execute_query(connection, query, json_message):
     except Error as e:
         print(f"Error: {e}")
 
-# connect_to_mysql()
 connection = connect_to_mysql()
 
 ws_trades(connection)
